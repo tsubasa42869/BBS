@@ -1,0 +1,26 @@
+/**/
+.input_display dt{
+		position:relative;
+		left:-10%;
+		font-size:1.2em;
+		color:black;
+}
+dd{
+		padding-bottom:10px;
+}
+.fix_btn{
+		display:inline-block;
+		padding:0.5em 50px;
+		margin:20px 0;
+		text-decoration:none;
+		background-color:#dddddd;
+		color:black;
+		font-size:1.0em;
+}
+.register_btn input{
+		padding:0.5em 90px;
+		background-color:#0000ff;
+		color:white;
+		border:none;
+		font-size:1.0em;
+}

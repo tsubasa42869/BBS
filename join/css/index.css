@@ -1,0 +1,36 @@
+/* join/main.php の設定*/
+.input_name{
+		padding-top:3%;
+}
+.input_name dt{
+		position:relative;
+		left:-15%;
+		font-size:1.0em;
+		width:80%;
+		color:#666666;
+}
+.input_name input{
+		position:relative;
+		left:-5%;
+		width:70%;
+		height:30px;
+		border:none;
+}
+.input_name input:focus{
+		border:1px solid #2c7cff;
+		outline:none;
+		box-shadow:0 0 5px 1px;
+}
+#input_btn input[type="submit"]{
+		box-sizing:border-box;
+		width:70%;
+		height:40px;
+		border:none;
+		padding:0.5em 1em;
+		background-color:#7fffd4;
+		color:white;
+		font-size:1.0em;
+}
+.error{
+		color:red;
+}

@@ -1,0 +1,54 @@
+/*/post/showAllファイル全体のデザイン*/
+html{
+		height:100%;
+}
+body{
+		height:100%;
+		margin:0;
+		background-color:white;
+}
+header{
+		text-align:center;
+		background-color:#f1f1f1;
+		margin:30px 20%;
+		padding:10px 10px;
+}
+main{
+		text-align:center;
+		background-color:#f1f1f1;
+		margin:0 20%;
+		padding:10px 10px;
+}
+.icon_position{
+		display:inline-block;
+		position:relative;
+		right:30%;
+		top:30px;
+}
+#day{
+		position:relative;
+		left:20px;
+		bottom:80px;
+}
+#name{
+		position:relative;
+		bottom:70px;
+}
+.message{
+		position:relative;
+		bottom:50px;
+}
+#returnbbs{/*一覧に戻るボタン*/
+  		display:inline-block;
+ 		padding:0.5em 1em;
+  		text-decoration:none;
+ 		background:#888888;
+  		color:#FFF;
+  		border-bottom:solid 4px #627295;
+  		border-radius:3px;
+}
+#returnbbs:active{/*ボタンを押したとき*/
+ 		 -webkit-transform:translateY(4px);
+  		transform:translateY(4px);
+ 		border-bottom:none;
+}

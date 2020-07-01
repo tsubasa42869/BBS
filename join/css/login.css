@@ -1,0 +1,47 @@
+/* join/login.php の設定*/
+.input_name{
+		padding-top:3%;
+}
+.input_name dt{
+		position:relative;
+		left:-15%;
+		width:80%;
+		font-size:1.0em;
+		color:#666666;
+}
+.input_name input{
+		position:relative;
+		left:-5%;
+		width:70%;
+		height:30px;
+		border:none;
+}
+.input_name input:focus{
+		border:1px solid #2c7cff;
+		outline:none;
+		box-shadow:0 0 5px 1px;
+}
+#checkbox{
+		padding-bottom:5%;
+}
+#input_btn input{
+		width:70%;
+		box-sizing:border-box;
+		border:none;
+		padding:0.5em 1em;
+		margin:3% 0;
+		background-color:#f4a460;
+		color:#FFF;
+		font-size:1.0em;
+
+}
+#new_register{
+		width:70%;
+		box-sizing:border-box;
+		margin:3% 0;
+  		display: inline-block;
+  		padding: 0.5em 1em;
+  		text-decoration: none;
+  		background: #668ad8;
+  		color: #FFF;
+}
